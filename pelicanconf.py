@@ -42,6 +42,6 @@ OUTPUT_PATH = 'docs/'
 
 THEME = 'themes/voce'
 
-USER_LOGO_URL = ({filename}/logo.png)
+USER_LOGO_URL = '/logo.png'
 
 STATIC_PATHS = ['images']
