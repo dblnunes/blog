@@ -42,6 +42,6 @@ OUTPUT_PATH = 'docs/'
 
 THEME = 'themes/voce'
 
-USER_LOGO_URL = '/Users/daninunes/blog/content/images/logo'
+USER_LOGO_URL = 'blog/logo.png'
 
 STATIC_PATHS = ['images']
