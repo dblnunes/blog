@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Daniel Nunes'
 SITENAME = 'def learning(data):'
-SITEURL = ''
+SITEURL = 'https://dblnunes.github.io/blog'
 
 PATH = 'content'
 
