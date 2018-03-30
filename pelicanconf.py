@@ -26,8 +26,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('https://github.com/dblnunes', '#'),
+          ('https://twitter.com/dbl_nunes', '#'),('dblnunes@outlook.com', '#'))
 
 DEFAULT_PAGINATION = 10
 
@@ -42,6 +42,6 @@ OUTPUT_PATH = 'docs/'
 
 THEME = 'themes/voce'
 
-USER_LOGO_URL = 'blog/logo.png'
+USER_LOGO_URL = ({filename}/logo.png)
 
 STATIC_PATHS = ['images']
