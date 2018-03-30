@@ -35,9 +35,9 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 MARKUP = ('md', 'ipynb')
 
-PLUGIN_PATH = './plugins'
-PLUGINS = ['ipynb.markup']
+PLUGIN_PATHS = ['./plugins', '/Users/daninunes/blog/themes/voce/plugins/assets']
+PLUGINS = ['ipynb.markup', 'assets']
 
 OUTPUT_PATH = 'docs/'
 
-THEME = 'themes/pelican-clean-blog'
+THEME = 'themes/voce'
