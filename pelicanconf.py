@@ -41,3 +41,7 @@ PLUGINS = ['ipynb.markup', 'assets']
 OUTPUT_PATH = 'docs/'
 
 THEME = 'themes/voce'
+
+USER_LOGO_URL = '/Users/daninunes/blog/content/images/logo.png'
+
+STATIC_PATHS = ['images']
