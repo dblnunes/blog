@@ -39,3 +39,5 @@ PLUGIN_PATH = './plugins'
 PLUGINS = ['ipynb.markup']
 
 OUTPUT_PATH = 'docs/'
+
+THEME = 'themes/pelican-clean-blog'
