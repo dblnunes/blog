@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Daniel Nunes</title><link href="https://dblnunes.github.io/blog/" rel="alternate"></link><link href="https://dblnunes.github.io/blog/feeds/all.atom.xml" rel="self"></link><id>https://dblnunes.github.io/blog/</id><updated>2018-03-30T20:00:00+02:00</updated><entry><title>First Post</title><link href="https://dblnunes.github.io/blog/first-post.html" rel="alternate"></link><published>2018-03-30T20:00:00+02:00</published><updated>2018-03-30T20:00:00+02:00</updated><author><name>Daniel Nunes</name></author><id>tag:dblnunes.github.io,2018-03-30:/blog/first-post.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Daniel Nunes</title><link href="https://dblnunes.github.io/blog/" rel="alternate"></link><link href="https://dblnunes.github.io/blog/feeds/all.atom.xml" rel="self"></link><id>https://dblnunes.github.io/blog/</id><updated>2018-03-30T20:00:00+02:00</updated><entry><title>First Post</title><link href="https://dblnunes.github.io/blog/posts/first-post/" rel="alternate"></link><published>2018-03-30T20:00:00+02:00</published><updated>2018-03-30T20:00:00+02:00</updated><author><name>Daniel Nunes</name></author><id>tag:dblnunes.github.io,2018-03-30:/blog/posts/first-post/</id><summary type="html">
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
@@ -1423,7 +1423,7 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="python firsts"></category></entry><entry><title>Markdown post test</title><link href="https://dblnunes.github.io/blog/mardown-post.html" rel="alternate"></link><published>2017-03-30T20:00:00+02:00</published><updated>2017-03-30T20:00:00+02:00</updated><author><name>Daniel Nunes</name></author><id>tag:dblnunes.github.io,2017-03-30:/blog/mardown-post.html</id><summary type="html">&lt;p&gt;This is post is written using markdown.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;This post is written in Markdown&lt;/h1&gt;
+</content><category term="python firsts"></category></entry><entry><title>Markdown post test</title><link href="https://dblnunes.github.io/blog/posts/mardown-post/" rel="alternate"></link><published>2017-03-30T20:00:00+02:00</published><updated>2017-03-30T20:00:00+02:00</updated><author><name>Daniel Nunes</name></author><id>tag:dblnunes.github.io,2017-03-30:/blog/posts/mardown-post/</id><summary type="html">&lt;p&gt;This is post is written using markdown.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;This post is written in Markdown&lt;/h1&gt;
 &lt;h2&gt;Ordered lists&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;first item&lt;/li&gt;
