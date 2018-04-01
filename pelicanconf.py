@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Daniel Nunes'
-SITENAME = 'def learning(data):'
+SITENAME = 'Daniel Nunes'
 SITEURL = 'https://dblnunes.github.io/blog'
 
 PATH = 'content'
@@ -20,14 +20,13 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
+LINKS = (('Publico', 'https://www.publico.pt/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Jinja2', 'http://jinja.pocoo.org/'))
 
 # Social widget
-SOCIAL = (('https://github.com/dblnunes', '#'),
-          ('https://twitter.com/dbl_nunes', '#'),('dblnunes@outlook.com', '#'))
+SOCIAL = (('github', 'https://github.com/dblnunes'),
+          ('twitter', 'https://twitter.com/dbl_nunes'),('mailto', 'mailto:dblnunes@outlook.com'))
 
 DEFAULT_PAGINATION = 10
 
