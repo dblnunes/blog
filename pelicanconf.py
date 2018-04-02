@@ -31,12 +31,12 @@ DISPLAY_PAGES_ON_MENU = True
 LINKS = None
 
 # Social widget
-SOCIAL = (('github', 'https://github.com/dblnunes'),
-          ('twitter', 'https://twitter.com/dbl_nunes'))
+SOCIAL = (('GitHub', 'https://github.com/dblnunes'),
+          ('Twitter', 'https://twitter.com/dbl_nunes'))
 
 DEFAULT_PAGINATION = 10
 
-HIDE_SIDEBAR = False
+HIDE_SIDEBAR = True
 DISPLAY_TAGS_ON_SIDEBAR = True
 DISPLAY_TAGS_INLINE = True
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
@@ -53,7 +53,7 @@ PLUGINS = ['ipynb.markup', 'i18n_subsites']
 OUTPUT_PATH = 'docs/'
 
 THEME = 'themes/pelican-themes/pelican-bootstrap3'
-BOOTSTRAP_THEME = 'journal'
+BOOTSTRAP_THEME = 'sandstone'
 BOOTSTRAP_NAVBAR_INVERSE = True
 BOOTSTRAP_FLUID = False
 
