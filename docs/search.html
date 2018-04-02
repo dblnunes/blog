@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Categories - Daniel Nunes</title>
+    <title>Search - Daniel Nunes
+</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -66,25 +67,7 @@ Daniel Nunes            </a>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-    <section id="categories">
-      <h1>All Categories for Daniel Nunes</h1>
-        <div class="panel-group" id="accordion">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-posts">posts <span class="badge pull-right">2</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-posts" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2018-03-30T20:00:00+02:00">Fri 30 March 2018</time></span> <a href="https://dblnunes.github.io/blog/posts/first-post/">First Post</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2017-03-30T20:00:00+02:00">Thu 30 March 2017</time></span> <a href="https://dblnunes.github.io/blog/posts/mardown-post/">Markdown post test</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
+<div id="tipue_search_content"></div>
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
@@ -141,5 +124,17 @@ Daniel Nunes            </a>
     <script src="https://dblnunes.github.io/blog/theme/js/bodypadding.js"></script>
 
 
+    <script type="text/javascript" src="https://dblnunes.github.io/blog/theme/tipuesearch/tipuesearch_set.js"></script>
+    <script type="text/javascript" src="https://dblnunes.github.io/blog/theme/tipuesearch/tipuesearch.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('#tipue_search_input').tipuesearch({
+        'mode' : 'json',
+        'show': 10,
+        'newWindow': false,
+        'contentLocation': 'tipuesearch_content.json'
+      });
+    });
+    </script>
 </body>
 </html>
