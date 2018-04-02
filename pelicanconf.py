@@ -55,7 +55,7 @@ OUTPUT_PATH = 'docs/'
 THEME = 'themes/pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'sandstone'
 BOOTSTRAP_NAVBAR_INVERSE = False
-BOOTSTRAP_FLUID = True
+BOOTSTRAP_FLUID = False
 
 SHOW_ARTICLE_CATEGORY = True
 
