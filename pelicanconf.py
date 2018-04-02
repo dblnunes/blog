@@ -53,8 +53,8 @@ PLUGINS = ['ipynb.markup', 'i18n_subsites']
 OUTPUT_PATH = 'docs/'
 
 THEME = 'themes/pelican-themes/pelican-bootstrap3'
-BOOTSTRAP_THEME = 'sandstone'
-BOOTSTRAP_NAVBAR_INVERSE = False
+BOOTSTRAP_THEME = 'journal'
+BOOTSTRAP_NAVBAR_INVERSE = True
 BOOTSTRAP_FLUID = False
 
 SHOW_ARTICLE_CATEGORY = True
@@ -85,7 +85,7 @@ YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
 
 AVATAR = None
 
-BANNER = "images/kde5.png"
+BANNER = "images/kde6.png"
 BANNER_SUBTITLE = 'Learning Data Science and Machine Learning'
 
 DISPLAY_ARTICLE_INFO_ON_INDEX = False
