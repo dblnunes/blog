@@ -85,7 +85,7 @@ YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
 
 AVATAR = None
 
-BANNER = "images/kde3.png"
+BANNER = "images/kde5.png"
 BANNER_SUBTITLE = 'Learning Data Science and Machine Learning'
 
 DISPLAY_ARTICLE_INFO_ON_INDEX = False
