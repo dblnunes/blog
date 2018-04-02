@@ -54,8 +54,8 @@ OUTPUT_PATH = 'docs/'
 
 THEME = 'themes/pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'sandstone'
-BOOTSTRAP_NAVBAR_INVERSE = True
-BOOTSTRAP_FLUID = False
+BOOTSTRAP_NAVBAR_INVERSE = False
+BOOTSTRAP_FLUID = True
 
 SHOW_ARTICLE_CATEGORY = True
 
@@ -65,6 +65,7 @@ STATIC_PATHS = ['images']
 
 SITELOGO = None
 SITELOGO_SIZE = None
+FAVICON = 'images/favicon.png'
 
 
 ##
